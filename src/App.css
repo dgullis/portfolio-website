@@ -30,5 +30,13 @@ html, body {
   
 }
 
+@media (max-width: 576px) { /* Small devices (576px and below) */
+  .profile-picture {
+    width: auto; /* Allow the width to adjust */
+    height: auto; /* Allow the height to adjust */
+    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+    max-height: 250px; /* Set the maximum height for smaller screens */
+  }
+}
 
 
