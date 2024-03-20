@@ -19,9 +19,12 @@ export const Projects = () => {
         <span style={{ paddingBottom: '8px', display: 'block' }}>
             Flask | React | MongoDB | Firebase | React Bootstrap | AWS (Amplify, EC2)
         </span>
-        <span style={{ paddingBottom: '20px', display: 'block' }}>
+        <span style={{ paddingBottom: '8px', display: 'block' }}>
             Two-week, small group project to design and build a product 
             from scratch that adhered to the self selected theme of “Tech for good”.
+        </span>
+        <span style={{ paddingBottom: '20px', display: 'block' }}>
+            Try it out by logging in as emma@email.com / Password123!
         </span>
         <span style={{ paddingBottom: '8px', display: 'block' }}>
             <strong>Acebook |   </strong>
@@ -35,9 +38,13 @@ export const Projects = () => {
         <span style={{ paddingBottom: '8px', display: 'block' }}>
             React | Node | Express |  MongoDB | Firebase | AWS (Amplify, EC2) 
         </span>
-        <span style={{ paddingBottom: '20px', display: 'block' }}>
+        <span style={{ paddingBottom: '8px', display: 'block' }}>
             Two-week, small group project, to create a facebook clone from a skeleton legacy codebase.
         </span>
+        <span style={{ paddingBottom: '20px', display: 'block' }}>
+            Try it out by logging in as alice@example.com / Passw0rd!A
+        </span>
+
         <span style={{ paddingBottom: '8px', display: 'block' }}>
             <strong>Portfolio Website |   </strong>
             <a href='https://dangullis.com'>

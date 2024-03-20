@@ -32,6 +32,10 @@ html, body {
   text-decoration: none;
 }
 
+.header-link {
+  text-decoration: none;
+}
+
 
 
 @media (max-width: 576px) { /* Small devices (576px and below) */
