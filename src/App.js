@@ -35,7 +35,7 @@ function App() {
   return (
     <div className="app-container d-flex justify-content-center align-items-center">
 
-    <Container fluid className="p-3 m-1 rounded-2" style={{maxWidth: '800px'}}>
+    <Container fluid className="p-1 m-1 rounded-2" style={{maxWidth: '800px' }}>
       <Row className="justify-content-center">
       <Row className="mb-3 justify-content-center">
           <a className="header-link" href='/'>
