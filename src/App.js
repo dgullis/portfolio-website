@@ -54,8 +54,8 @@ function App() {
                     alt='home-logo' 
                     src='/home-icon2.svg' 
                     style={{
-                      width: 'min(31px, 5vw)',  
-                      height: 'min(31px, 5vw)', 
+                      width: 'min(31px, 7vw)',  
+                      height: 'min(31px, 7vw)', 
                     }}/>
               </div>
             </a>
@@ -67,8 +67,8 @@ function App() {
                     alt='github-logo' 
                     src='/github-mark-white.png' 
                     style={{
-                      width: 'min(30px, 5vw)',  
-                      height: 'min(30px, 5vw)', 
+                      width: 'min(30px, 7vw)',  
+                      height: 'min(30px, 7vw)', 
                     }}/>
               </div>
             </a>
@@ -80,8 +80,8 @@ function App() {
                     alt='linekdin-logo' 
                     src='In-White-128@2x.png' 
                     style={{
-                      width: 'min(30px, 5vw)',  
-                      height: 'min(30px, 5vw)', 
+                      width: 'min(30px, 7vw)',  
+                      height: 'min(30px, 7vw)', 
                     }}/>
               </div>
             </a>
@@ -93,8 +93,8 @@ function App() {
                     alt='email-logo' 
                     src='email-icon.png' 
                     style={{
-                      width: 'min(40px, 7vw)',  
-                      height: 'min(30px, 5vw)', 
+                      width: 'min(40px, 9vw)',  
+                      height: 'min(30px, 7vw)', 
                     }}/>
               </div>
             </a>
