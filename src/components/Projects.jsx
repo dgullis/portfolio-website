@@ -58,7 +58,7 @@ export const Projects = () => {
             React | Node | Bootstrap | AWS (Amplify)
         </span>
         <span style={{ paddingBottom: '20px', display: 'block' }}>
-            Personal portfoilio website focussing on simplicity, accessibility and responseive design
+            Personal portfoilio website focussing on simplicity, accessibility and responsive design
         </span>
         </div>
         
