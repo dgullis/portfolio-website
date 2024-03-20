@@ -35,16 +35,31 @@ function App() {
   return (
     <div className="app-container d-flex justify-content-center align-items-center">
 
-    <Container fluid className="p-3 m-3 rounded-2" style={{maxWidth: '700px', overflowWrap: 'break-word'}}>
+    <Container fluid className="p-3 m-1 rounded-2" style={{maxWidth: '800px'}}>
       <Row className="justify-content-center">
       <Row className="mb-3 justify-content-center">
-          <Row className="justify-content-center" style={{fontFamily: 'Quicksand, sans-serif', fontSize: 'calc(20px + 5vw)', letterSpacing: '2px', color: 'white', fontWeight: '800'}}>
-          Dan Gullis
-          </Row>
-          <Row className="justify-content-center mb-2"  style={{fontFamily: 'Quicksand, sans-serif', fontSize: 'calc(10px + 4vw)', letterSpacing: '2px', color: 'white', fontWeight: '600', textAlign: 'center'}}>
+          <a className="header-link" href='/'>
+            <Row className="justify-content-center " style={{fontFamily: 'Quicksand, sans-serif', fontSize: 'calc(20px + 4vw)', letterSpacing: '2px', color: 'white', fontWeight: '800'}}>
+            Dan Gullis
+            </Row>
+          </a>
+          <Row className="justify-content-center mb-2"  style={{fontFamily: 'Quicksand, sans-serif', fontSize: 'calc(10px + 2.8vw)', letterSpacing: '2px', color: 'white', fontWeight: '600', textAlign: 'center'}}>
           Junior Software Developer
           </Row>
           <Row className="justify-content-center">
+          <Col>
+            <a href='/'>
+              <div className="logo-container d-flex justify-content-center" >
+                  <img 
+                    alt='home-logo' 
+                    src='/home-icon2.svg' 
+                    style={{
+                      width: 'min(31px, 5vw)',  
+                      height: 'min(31px, 5vw)', 
+                    }}/>
+              </div>
+            </a>
+            </Col>
             <Col>
             <a href='https://www.github.com/dgullis'>
               <div className="logo-container d-flex justify-content-center" >

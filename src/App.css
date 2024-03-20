@@ -30,6 +30,12 @@ html, body {
   
 }
 
+.header-link:hover {
+  text-decoration: none;
+}
+
+
+
 @media (max-width: 576px) { /* Small devices (576px and below) */
   .profile-picture {
     width: auto; /* Allow the width to adjust */
