@@ -113,7 +113,7 @@ function App() {
             </Row>
           </Col>
 
-          <Col className="d-flex flex-column justify-content-center p-3" >
+          <Col className="d-flex flex-column justify-content-center pt-0 p-3" style={{paddingTop: '10px'}}>
             <Row>
           <Button onClick={() => openInfo("ABOUT")} className="bg-gradient p-sm-2 p-md-3 p-lg-3.5 mb-4 mt-4 rounded-1" style={{backgroundColor: '#f5a65b', border: 'none', fontSize: '20px'}}>
             About Me
