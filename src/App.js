@@ -38,10 +38,10 @@ function App() {
     <Container fluid className="p-3 m-3 rounded-2" style={{maxWidth: '700px', overflowWrap: 'break-word'}}>
       <Row className="justify-content-center">
       <Row className="mb-3 justify-content-center">
-          <Row className="justify-content-center" style={{fontFamily: 'Quicksand, sans-serif', fontSize: 'calc(20px + 3vw)', letterSpacing: '2px', color: 'white', fontWeight: '800'}}>
+          <Row className="justify-content-center" style={{fontFamily: 'Quicksand, sans-serif', fontSize: 'calc(20px + 5vw)', letterSpacing: '2px', color: 'white', fontWeight: '800'}}>
           Dan Gullis
           </Row>
-          <Row className="justify-content-center mb-2"  style={{fontFamily: 'Quicksand, sans-serif', fontSize: 'calc(10px + 2vw)', letterSpacing: '2px', color: 'white', fontWeight: '600', textAlign: 'center'}}>
+          <Row className="justify-content-center mb-2"  style={{fontFamily: 'Quicksand, sans-serif', fontSize: 'calc(10px + 4vw)', letterSpacing: '2px', color: 'white', fontWeight: '600', textAlign: 'center'}}>
           Junior Software Developer
           </Row>
           <Row className="justify-content-center">
@@ -94,7 +94,7 @@ function App() {
           {infoContent === 'ABOUT' && <AboutMe />}
           {infoContent === 'PROJECTS' && <Projects />}
           {infoContent === 'EXPERIENCE' && <Experience />}
-          <Button onClick={closeInfo}className="bg-gradient rounded-1" style={{backgroundColor: '#f5a65b', border: 'none', fontSize: '20px'}}>
+          <Button onClick={closeInfo}className="bg-gradient rounded-1" style={{backgroundColor: '#f5a65b', border: 'none', fontSize: '22px', fontWeight: '600'}}>
           Back
           </Button>
           </>
@@ -115,17 +115,17 @@ function App() {
 
           <Col className="d-flex flex-column justify-content-center pt-0 p-3" style={{paddingTop: '10px'}}>
             <Row>
-          <Button onClick={() => openInfo("ABOUT")} className="bg-gradient p-sm-2 p-md-3 p-lg-3.5 mb-4 mt-4 rounded-1" style={{backgroundColor: '#f5a65b', border: 'none', fontSize: '20px'}}>
+          <Button onClick={() => openInfo("ABOUT")} className="bg-gradient p-sm-2 p-md-3 p-lg-3.5 mb-4 mt-4 rounded-1" style={{backgroundColor: '#f5a65b', border: 'none', fontSize: '22px', fontWeight: '600'}}>
             About Me
           </Button>
           </Row>
           <Row>
-          <Button onClick={() => openInfo("PROJECTS")} className="bg-gradient p-sm-2 p-md-3 p-lg-3.5  mb-4 rounded-1" style={{backgroundColor: '#f5a65b', border: 'none', fontSize: '20px'}}>
+          <Button onClick={() => openInfo("PROJECTS")} className="bg-gradient p-sm-2 p-md-3 p-lg-3.5  mb-4 rounded-1" style={{backgroundColor: '#f5a65b', border: 'none', fontSize: '22px', fontWeight: '600'}}>
             Projects
           </Button>
           </Row>
           <Row>
-          <Button onClick={() => openInfo("EXPERIENCE")} className="bg-gradient p-sm-2 p-md-3 p-lg-3.5  mb-4 rounded-1" style={{backgroundColor: '#f5a65b', border: 'none', fontSize: '20px'}}>
+          <Button onClick={() => openInfo("EXPERIENCE")} className="bg-gradient p-sm-2 p-md-3 p-lg-3.5  mb-4 rounded-1" style={{backgroundColor: '#f5a65b', border: 'none', fontSize: '22px', fontWeight: '600'}}>
             Experience
           </Button>
           </Row>      
