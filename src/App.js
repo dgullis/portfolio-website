@@ -104,7 +104,7 @@ function App() {
       (
           <>
           <Col className="d-flex flex-column justify-content-center p-2">
-            <Row style={{minWidth: '300px'}}>
+            <Row className='justify-content-center 'style={{minWidth: '300px'}}>
                 <img 
                   alt='profile' 
                   src='profile-image3.jpg'
