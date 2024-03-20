@@ -2,16 +2,16 @@ import './Experience.css'
 export const Experience = () => {
 
     return (
-        <div className='experience-content' style={{fontSize: '14px'}}>
+        <div className='experience-content' style={{fontSize: '14px', fontWeight:'500'}}>
         <div className='d-flex justify-content-center pb-1'>
-                <strong>Experience</strong>
+                <strong style={{fontSize: '18px'}}>Experience</strong>
             </div>
-        <span style={{ paddingBottom: '3px', display: 'block' }}>
+        <span style={{ paddingBottom: '5px', display: 'block' }}>
             <strong>
             Junior Software Developer 
             </strong>
         </span>
-        <span style={{ paddingBottom: '3px', display: 'block' }}>
+        <span style={{ paddingBottom: '5px', display: 'block' }}>
         Makers Academy software development bootcamp | 10/2023 to 03/2024
         </span>
         <ul>
@@ -32,15 +32,15 @@ export const Experience = () => {
             </li>
         </ul>
 
-        <span style={{ paddingBottom: '3px', display: 'block' }}>
+        <span style={{ paddingBottom: '5px', display: 'block' }}>
             <strong>
             EMT, Paramedic, Paramedic Practitioner 
             </strong>
         </span>
-        <span style={{ paddingBottom: '3px', display: 'block' }}>
+        <span style={{ paddingBottom: '5px', display: 'block' }}>
         NHS | 2015 to 2023
         </span>
-        <span style={{ paddingBottom: '3px', display: 'block' }}>
+        <span style={{ paddingBottom: '5px', display: 'block' }}>
             In these roles I have developed high level transferable skills including
         </span>
             <ul>
