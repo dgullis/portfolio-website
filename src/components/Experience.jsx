@@ -2,7 +2,7 @@ import './Experience.css'
 export const Experience = () => {
 
     return (
-        <div className='experience-content' style={{fontSize: '14px', fontWeight:'500'}}>
+        <div className='experience-content' style={{fontSize: '14.5px', fontWeight:'550'}}>
         <div className='d-flex justify-content-center pb-1'>
                 <strong style={{fontSize: '18px'}}>Experience</strong>
             </div>
