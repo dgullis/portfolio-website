@@ -1,6 +1,6 @@
 export const AboutMe = () => {
     return (
-        <div className="about-me-content" style={{fontSize: '14.5px', fontWeight:'550'}}>
+        <div className="about-me-content" style={{fontSize: '15px', fontWeight:'600'}}>
             <div className='d-flex justify-content-center pb-1'>
                 <strong style={{fontSize: '18px'}}>About Me</strong>
             </div>
