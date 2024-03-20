@@ -9,17 +9,17 @@ function App() {
   const [showInfo, setShowInfo] = useState(false)
   const [infoContent, setShowInfoContent] = useState("")
 
-  useEffect(() => {
-    const mainContainer = document.querySelector(".app-container");
-    const contentHeight = mainContainer.scrollHeight;
-    const viewportHeight = window.innerHeight;
+  // useEffect(() => {
+  //   const mainContainer = document.querySelector(".app-container");
+  //   const contentHeight = mainContainer.scrollHeight;
+  //   const viewportHeight = window.innerHeight;
 
-    if (contentHeight > viewportHeight) {
-      mainContainer.style.height = "100%";
-    } else {
-      mainContainer.style.height = "100vh";
-    }
-  }, [showInfo]);
+  //   if (contentHeight > viewportHeight) {
+  //     mainContainer.style.height = "100%";
+  //   } else {
+  //     mainContainer.style.height = "100%";
+  //   }
+  // }, [showInfo]);
 
   const openInfo = (content) => {
     setShowInfo(true)
@@ -103,14 +103,6 @@ function App() {
       :
       (
           <>
-
-          <Col>
-            <Row>
-              <div className="placeholder">
-                <img alt='profile' src='profile-image2.jpg' style={{ height: '400px'}} />
-              </div>
-            </Row>
-          </Col>
           <Col className="d-flex flex-column justify-content-center p-4" >
             <Row>
           <Button onClick={() => openInfo("ABOUT")} className="bg-gradient p-3 mb-4 mt-4 rounded-1" style={{backgroundColor: '#f5a65b', border: 'none', fontSize: '20px'}}>
@@ -128,6 +120,14 @@ function App() {
           </Button>
           </Row>      
           </Col>
+          <Col>
+            <Row>
+              <div className="placeholder">
+                <img alt='profile' src='profile-image2.jpg' style={{ height: '400px'}} />
+              </div>
+            </Row>
+          </Col>
+        
         </>
 
       )}
