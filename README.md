@@ -17,7 +17,7 @@ Mobile
 <img src="public/mobile-screenshot.png" width=289px height=518px>
 
 Full-screen
-<img src="public/fullscreen-screenshot.png" width=1165px height=584px>
+<img src="public/fullscreen-screenshot.png" width=874px height=438px>
 
 
 
