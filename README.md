@@ -14,7 +14,8 @@ Focussing on simplicity, acessibility and responsive design to different viewpor
 ## Screenshots
 
 Full-screen
-![full-screen](public/browser-screenshot.png)
+<img src="public/mobile-screenshot.png" width=289px height=518px>
+![full-screen](public/fullscreen-screenshot.png)
 
 Mobile
 ![mobile-screen](public/mobile-screenshot.png)
