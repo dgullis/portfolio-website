@@ -35,15 +35,15 @@ function App() {
   return (
     <div className="app-container d-flex justify-content-center align-items-center">
 
-    <Container fluid className="p-1 m-1 rounded-2" style={{maxWidth: '800px' }}>
+    <Container fluid className="p-1 m-1 rounded-2" style={{maxWidth: '800px'}} >
       <Row className="justify-content-center">
       <Row className="mb-3 justify-content-center">
           <a className="header-link" href='/'>
-            <Row className="justify-content-center " style={{fontFamily: 'Quicksand, sans-serif', fontSize: 'calc(20px + 4vw)', letterSpacing: '2px', color: 'white', fontWeight: '800'}}>
+            <Row className="justify-content-center " style={{fontFamily: 'Hind, sans-serif', fontSize: 'calc(20px + 4vw)', letterSpacing: '2px', color: '#1b4965', fontWeight: '900',  textShadow: '0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3)' }}>
             Dan Gullis
             </Row>
           </a>
-          <Row className="justify-content-center mb-2"  style={{fontFamily: 'Quicksand, sans-serif', fontSize: 'calc(10px + 2.8vw)', letterSpacing: '2px', color: 'white', fontWeight: '600', textAlign: 'center'}}>
+          <Row className="justify-content-center mb-2"  style={{fontFamily: 'Hind, sans-serif', fontSize: 'calc(10px + 2.8vw)', letterSpacing: '2px', color: '#1b4965', fontWeight: '700', textAlign: 'center', textShadow: '0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3)'}}>
           Junior Software Developer
           </Row>
           <Row className="justify-content-center">
@@ -109,7 +109,7 @@ function App() {
           {infoContent === 'ABOUT' && <AboutMe />}
           {infoContent === 'PROJECTS' && <Projects />}
           {infoContent === 'EXPERIENCE' && <Experience />}
-          <Button onClick={closeInfo}className="bg-gradient rounded-1" style={{backgroundColor: '#f5a65b', border: 'none', fontSize: '22px', fontWeight: '600'}}>
+          <Button onClick={closeInfo}className="bg-gradient rounded-1" style={{backgroundColor: '#1b4965', border: 'none', fontSize: '22px', fontWeight: '650', textShadow: '0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3)'}}>
           Back
           </Button>
           </>
@@ -124,23 +124,24 @@ function App() {
                   alt='profile' 
                   src='profile-image3.jpg'
                   className='image-fluid profile-picture' 
+                  style={{borderRadius: '10px'}}
                   />
             </Row>
           </Col>
 
           <Col className="d-flex flex-column justify-content-center pt-0 p-3" style={{paddingTop: '10px'}}>
             <Row>
-          <Button onClick={() => openInfo("ABOUT")} className="bg-gradient p-sm-2 p-md-3 p-lg-3.5 mb-4 mt-4 rounded-1" style={{backgroundColor: '#f5a65b', border: 'none', fontSize: '22px', fontWeight: '600'}}>
+          <Button onClick={() => openInfo("ABOUT")} className="bg-gradient p-sm-2 p-md-3 p-lg-3.5 mb-4 mt-4 rounded-1" style={{backgroundColor: '#136f63', border: 'none', fontSize: '22px', fontWeight: '650', textShadow: '0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3)'}}>
             About Me
           </Button>
           </Row>
           <Row>
-          <Button onClick={() => openInfo("PROJECTS")} className="bg-gradient p-sm-2 p-md-3 p-lg-3.5  mb-4 rounded-1" style={{backgroundColor: '#f5a65b', border: 'none', fontSize: '22px', fontWeight: '600'}}>
+          <Button onClick={() => openInfo("PROJECTS")} className="bg-gradient p-sm-2 p-md-3 p-lg-3.5  mb-4 rounded-1" style={{backgroundColor: '#136f63', border: 'none', fontSize: '22px', fontWeight: '650',textShadow: '0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3)'}}>
             Projects
           </Button>
           </Row>
           <Row>
-          <Button onClick={() => openInfo("EXPERIENCE")} className="bg-gradient p-sm-2 p-md-3 p-lg-3.5  mb-4 rounded-1" style={{backgroundColor: '#f5a65b', border: 'none', fontSize: '22px', fontWeight: '600'}}>
+          <Button onClick={() => openInfo("EXPERIENCE")} className="bg-gradient p-sm-2 p-md-3 p-lg-3.5  mb-4 rounded-1" style={{backgroundColor: '#136f63', border: 'none', fontSize: '22px', fontWeight: '650', textShadow: '0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3)'}}>
             Experience
           </Button>
           </Row>      
