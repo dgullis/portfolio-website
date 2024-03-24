@@ -131,17 +131,17 @@ function App() {
 
           <Col className="d-flex flex-column justify-content-center pt-0 p-3" style={{paddingTop: '10px'}}>
             <Row>
-          <Button onClick={() => openInfo("ABOUT")} className="bg-gradient p-sm-2 p-md-3 p-lg-3.5 mb-4 mt-4 rounded-1" style={{backgroundColor: '#136f63', border: 'none', fontSize: '22px', fontWeight: '650', textShadow: '0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3)'}}>
+          <Button onClick={() => openInfo("ABOUT")} className="bg-gradient p-sm-2 p-md-3 p-lg-3.5 mb-4 mt-4 rounded-1" style={{backgroundColor: '#648de5', border: 'none', fontSize: '22px', fontWeight: '650', textShadow: '0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3)'}}>
             About Me
           </Button>
           </Row>
           <Row>
-          <Button onClick={() => openInfo("PROJECTS")} className="bg-gradient p-sm-2 p-md-3 p-lg-3.5  mb-4 rounded-1" style={{backgroundColor: '#136f63', border: 'none', fontSize: '22px', fontWeight: '650',textShadow: '0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3)'}}>
+          <Button onClick={() => openInfo("PROJECTS")} className="bg-gradient p-sm-2 p-md-3 p-lg-3.5  mb-4 rounded-1" style={{backgroundColor: '#648de5', border: 'none', fontSize: '22px', fontWeight: '650',textShadow: '0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3)'}}>
             Projects
           </Button>
           </Row>
           <Row>
-          <Button onClick={() => openInfo("EXPERIENCE")} className="bg-gradient p-sm-2 p-md-3 p-lg-3.5  mb-4 rounded-1" style={{backgroundColor: '#136f63', border: 'none', fontSize: '22px', fontWeight: '650', textShadow: '0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3)'}}>
+          <Button onClick={() => openInfo("EXPERIENCE")} className="bg-gradient p-sm-2 p-md-3 p-lg-3.5  mb-4 rounded-1" style={{backgroundColor: '#648de5', border: 'none', fontSize: '22px', fontWeight: '650', textShadow: '0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3)'}}>
             Experience
           </Button>
           </Row>      
