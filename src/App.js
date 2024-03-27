@@ -35,6 +35,10 @@ function App() {
           <Row className="justify-content-center mb-2"  style={{fontFamily: 'Koulen', fontSize: 'calc(20px + 2.8vw)', letterSpacing: '4px', color: 'white', fontWeight: '200', textAlign: 'center', textShadow: '0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3)'}}>
           Junior Software Developer
           </Row>
+          <Row className="justify-content-center mb-2"  style={{fontFamily: 'Koulen', fontSize: 'calc(20px + 2.8vw)', letterSpacing: '4px', color: 'white', fontWeight: '200', textAlign: 'center', textShadow: '0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3)'}}>
+            coming soon
+          </Row>
+
           <Row className="justify-content-center">
           <Col>
             <a href='/'>
@@ -43,8 +47,8 @@ function App() {
                     alt='home-logo' 
                     src='/home-icon2.svg' 
                     style={{
-                      width: 'min(31px, 7vw)',  
-                      height: 'min(31px, 7vw)', 
+                      width: 'min(21px, 7vw)',  
+                      height: 'min(21px, 7vw)', 
                     }}/>
               </div>
             </a>
@@ -56,8 +60,8 @@ function App() {
                     alt='github-logo' 
                     src='/github-mark-white.png' 
                     style={{
-                      width: 'min(30px, 7vw)',  
-                      height: 'min(30px, 7vw)', 
+                      width: 'min(20px, 7vw)',  
+                      height: 'min(20px, 7vw)', 
                     }}/>
               </div>
             </a>
@@ -69,8 +73,8 @@ function App() {
                     alt='linekdin-logo' 
                     src='In-White-128@2x.png' 
                     style={{
-                      width: 'min(30px, 7vw)',  
-                      height: 'min(30px, 7vw)', 
+                      width: 'min(20px, 7vw)',  
+                      height: 'min(20px, 7vw)', 
                     }}/>
               </div>
             </a>
@@ -82,8 +86,8 @@ function App() {
                     alt='email-logo' 
                     src='email-icon.png' 
                     style={{
-                      width: 'min(40px, 9vw)',  
-                      height: 'min(30px, 7vw)', 
+                      width: 'min(30px, 9vw)',  
+                      height: 'min(20px, 7vw)', 
                     }}/>
               </div>
             </a>
@@ -107,9 +111,7 @@ function App() {
       :
       ( <> */}
 
-        <Row className="justify-content-center mb-2"  style={{fontFamily: 'Koulen', fontSize: 'calc(20px + 2.8vw)', letterSpacing: '4px', color: 'white', fontWeight: '200', textAlign: 'center', textShadow: '0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3)'}}>
-        coming soon
-        </Row>
+        
         </Row>
         </Row>
     </Container>
