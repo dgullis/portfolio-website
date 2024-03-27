@@ -9,17 +9,6 @@ function App() {
   const [showInfo, setShowInfo] = useState(false)
   const [infoContent, setShowInfoContent] = useState("")
 
-  // useEffect(() => {
-  //   const mainContainer = document.querySelector(".app-container");
-  //   const contentHeight = mainContainer.scrollHeight;
-  //   const viewportHeight = window.innerHeight;
-
-  //   if (contentHeight > viewportHeight) {
-  //     mainContainer.style.height = "100%";
-  //   } else {
-  //     mainContainer.style.height = "100%";
-  //   }
-  // }, [showInfo]);
 
   const openInfo = (content) => {
     setShowInfo(true)
@@ -39,11 +28,11 @@ function App() {
       <Row className="justify-content-center">
       <Row className="mb-3 justify-content-center">
           <a className="header-link" href='/'>
-            <Row className="justify-content-center " style={{fontFamily: 'Hind, sans-serif', fontSize: 'calc(20px + 4vw)', letterSpacing: '2px', color: '#1b4965', fontWeight: '900',  textShadow: '0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3)' }}>
+            <Row className="justify-content-center " style={{fontFamily: 'Koulen', fontSize: 'calc(40px + 4vw)', letterSpacing: '5px', color: 'white', fontWeight: '100',  textShadow: '0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3)' }}>
             Dan Gullis
             </Row>
           </a>
-          <Row className="justify-content-center mb-2"  style={{fontFamily: 'Hind, sans-serif', fontSize: 'calc(10px + 2.8vw)', letterSpacing: '2px', color: '#1b4965', fontWeight: '700', textAlign: 'center', textShadow: '0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3)'}}>
+          <Row className="justify-content-center mb-2"  style={{fontFamily: 'Koulen', fontSize: 'calc(20px + 2.8vw)', letterSpacing: '4px', color: 'white', fontWeight: '200', textAlign: 'center', textShadow: '0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3)'}}>
           Junior Software Developer
           </Row>
           <Row className="justify-content-center">
@@ -104,7 +93,7 @@ function App() {
         </Row>
 
         <Row>
-      {showInfo ? (
+      {/* {showInfo ? (
           <>
           {infoContent === 'ABOUT' && <AboutMe />}
           {infoContent === 'PROJECTS' && <Projects />}
@@ -116,9 +105,22 @@ function App() {
 
       )
       :
-      (
-          <>
-          <Col className="d-flex flex-column justify-content-center p-2">
+      ( <> */}
+
+        <Row className="justify-content-center mb-2"  style={{fontFamily: 'Koulen', fontSize: 'calc(20px + 2.8vw)', letterSpacing: '4px', color: 'white', fontWeight: '200', textAlign: 'center', textShadow: '0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3)'}}>
+        coming soon
+        </Row>
+        </Row>
+        </Row>
+    </Container>
+    </div>
+  );
+}
+  
+      
+
+        
+          {/* <Col className="d-flex flex-column justify-content-center p-2">
             <Row className='justify-content-center 'style={{minWidth: '300px'}}>
                 <img 
                   alt='profile' 
@@ -127,9 +129,9 @@ function App() {
                   style={{borderRadius: '10px'}}
                   />
             </Row>
-          </Col>
+          </Col> */}
 
-          <Col className="d-flex flex-column justify-content-center pt-0 p-3" style={{paddingTop: '10px'}}>
+          {/* <Col className="d-flex flex-column justify-content-center pt-0 p-3" style={{paddingTop: '10px'}}>
             <Row>
           <Button onClick={() => openInfo("ABOUT")} className="bg-gradient p-sm-2 p-md-3 p-lg-3.5 mb-4 mt-4 rounded-1" style={{backgroundColor: '#648de5', border: 'none', fontSize: '22px', fontWeight: '650', textShadow: '0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3)'}}>
             About Me
@@ -145,18 +147,11 @@ function App() {
             Experience
           </Button>
           </Row>      
-          </Col>
+          </Col> */}
           
         
-        </>
 
-      )}
-      </Row>
-        
-      </Row>
-    </Container>
-    </div>
-  );
-}
+    
+
 
 export default App;
