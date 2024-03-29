@@ -50,7 +50,7 @@ export const Projects = () => {
             <a href='https://dangullis.com' className="project-link">
                 live site
             </a> 
-            <a href=' https://github.com/dgullis/acebook' className="project-link">
+            <a href='https://github.com/dgullis/portfolio-website' className="project-link">
                 github
             </a> 
         </span>
