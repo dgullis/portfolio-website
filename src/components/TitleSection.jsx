@@ -25,7 +25,7 @@ export const TitleSection = () => {
             </span> */}
             </Row>
             <Row className="justify-content-center" style={{ fontFamily: 'Armitage', fontSize: 'calc(20px + 2vw)', letterSpacing: '4px', color: 'white', fontWeight: '100', textAlign: 'center', textShadow: '0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3)' }}>
-            JUNIOR SOFTWARE DEVELEOPER
+            JUNIOR SOFTWARE DEVELOPER
             {/* <span style={{ fontFamily: 'Armitage', fontSize: 'calc(20px + 3vw)', letterSpacing: '4px', color: 'white', fontWeight: '100', textAlign: 'center', textShadow: '0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3)' }}>
             <span style={{ display: 'inline-block' }}>
                 <span style={{ color: 'white' }}>J</span>
