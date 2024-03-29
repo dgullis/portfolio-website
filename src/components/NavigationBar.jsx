@@ -44,7 +44,7 @@ export const NavigationBar = () => {
                     <FontAwesomeIcon icon={faBars}/>
                 </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav" >
-                    <Nav className="ms-auto">
+                    <Nav className="ms-auto" style={{fontSize: '1.25rem'}}>
                         <li className="nav-item">
                             <Link 
                                 activeClass="active" 
