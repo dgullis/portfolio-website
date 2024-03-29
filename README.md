@@ -20,7 +20,7 @@ Mobile
 
 Full-screen
 
-<img src="public/fullscreen-view.png" width=582px height=292px>
+<img src="public/large-screenshot.png" width=582px height=292px>
 
 
 
