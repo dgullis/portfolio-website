@@ -2,19 +2,19 @@ import './Experience.css'
 export const Experience = () => {
 
     return (
-        <div className='experience-content' style={{fontSize: '15px', fontWeight:'600', overflowY: 'auto'}}>
-        <div className='d-flex justify-content-center pb-1'>
-                <strong style={{fontSize: '18px'}}>Experience</strong>
+        <div className='experience-content' style={{fontFamily: 'Armitage', color: 'white', fontSize: 'calc(13px + 0.5vw)', fontWeight:'100', overflowY: 'auto'}}>
+        <div className='d-flex justify-content-center pb-4'>
+        <strong style={{fontSize: 'calc(10px + 2.8vw)', letterSpacing: '4px'}}>EXPERIENCE</strong>
             </div>
-        <span style={{ paddingBottom: '5px', display: 'block' }}>
-            <strong>
+        <span style={{ paddingBottom: '10px', display: 'block' }}>
+            <strong style= {{fontSize: 'calc(11px + 2vw)'}}>
             Junior Software Developer 
             </strong>
         </span>
         <span style={{ paddingBottom: '5px', display: 'block' }}>
         Makers Academy software development bootcamp | 10/2023 to 03/2024
         </span>
-        <ul>
+        <ul style={{paddingBottom: '20px'}}>
             <li>
                 Developed proficiency in Python and Javascript, applying these skills to build full stack web applications
             </li>
@@ -32,8 +32,8 @@ export const Experience = () => {
             </li>
         </ul>
 
-        <span style={{ paddingBottom: '5px', display: 'block' }}>
-            <strong>
+        <span style={{ paddingBottom: '10px', display: 'block' }}>
+            <strong style= {{fontSize: 'calc(11px + 2vw)'}}>
             EMT, Paramedic, Paramedic Practitioner 
             </strong>
         </span>

@@ -1,9 +1,52 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faLinkedin} from '@fortawesome/free-brands-svg-icons'
+import { faSquareGithub } from "@fortawesome/free-brands-svg-icons";
+import { faSquareEnvelope } from "@fortawesome/free-solid-svg-icons";
+
+
 export const AboutMe = () => {
+    
     return (
-        <div className="about-me-content" style={{fontSize: '15px', fontWeight:'600', overflowY: 'auto'}}>
-            <div className='d-flex justify-content-center pb-1'>
-                <strong style={{fontSize: '18px'}}>About Me</strong>
+        <div id="about-me-content" className="about-me-content" style={{fontFamily: 'Armitage', color: 'white', fontSize: 'calc(14px + 0.5vw)', fontWeight:'100'}}>
+            <div className='d-flex justify-content-center pb-4'>
+                <strong style={{fontSize: 'calc(20px + 2vw)', letterSpacing: '4px'}}>ABOUT ME</strong>
             </div>
+            <div className="about-me-links" style ={{marginBottom: '20px'}}>
+
+            <a href='https://www.github.com/dgullis' style={{marginRight: "30px", marginLeft: "30px"}}>
+                        <FontAwesomeIcon 
+                            icon={faSquareGithub} 
+                            style={{
+                                color: 'white',
+                                width: 'min(25px, 7vw)',  
+                                height: 'min(25px, 7vw)', 
+                        }}/>
+                    </a>
+                    <a href='https://www.linkedin.com/in/dan-gullis-b91b632b9/' style={{marginRight: "30px"}}>
+                        <FontAwesomeIcon 
+                        icon={faLinkedin} 
+                        
+                        style={{
+                            color: 'white',
+                            width: 'min(25px, 7vw)',  
+                            height: 'min(25px, 7vw)', 
+                        }}/>
+                        
+                    </a>
+
+                    <a href="mailto:daniel.gullis1@gmail.com" style={{marginRight: "30px"}}>
+                    <FontAwesomeIcon 
+                        icon={faSquareEnvelope} 
+                        
+                        style={{
+                            color: 'white',
+                            width: 'min(25px, 7vw)',  
+                            height: 'min(25px, 7vw)', 
+                        }}/>
+                    </a>
+
+            </div>
+
             <ul >
             <li>
             <span style={{ paddingBottom: '8px', display: 'block' }}>

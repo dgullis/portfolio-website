@@ -1,0 +1,50 @@
+.custom-toggle {
+    color: white;
+    border-color: #171717ff;
+}
+
+.navigation-bar {
+    background-color: #171717ff ;
+}
+
+
+.navbar-toggler {
+    border: none;
+
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+
+.nav-link-custom {
+    color: white;
+    text-decoration: none;
+    font-family: 'Armitage';
+}
+
+.nav-item {
+    inset: none;
+    list-style: none;
+}
+
+
+.nav-item-title {
+    list-style: none;
+    inset: none;
+}
+
+.nav-link {
+    transition: none;
+}
+
+.nav-link-custom:hover {
+text-decoration: underline;
+color: white;
+}
+
+.nav-link-custom:visited {
+    color: white;
+}
+
