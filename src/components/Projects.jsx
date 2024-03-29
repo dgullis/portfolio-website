@@ -3,7 +3,7 @@ import './Projects.css'
 export const Projects = () => {
 
     return (
-        <div className='projects-content' style={{fontFamily: 'Armitage', color: 'white', fontSize: 'calc(14px + 0.5vw)', fontWeight:'100', overflowY: 'auto'}}>
+        <div className='projects-content' style={{fontFamily: 'Armitage', color: 'white', fontSize: 'calc(14px + 0.5vw)', fontWeight:'100'}}>
         <div className='d-flex justify-content-center pb-4'>
             <strong style={{fontSize: 'calc(20px + 2vw)', letterSpacing: '4px'}}>PROJECTS</strong>
             </div>
