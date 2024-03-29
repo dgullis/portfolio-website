@@ -2,9 +2,9 @@ import './Experience.css'
 export const Experience = () => {
 
     return (
-        <div className='experience-content' style={{fontFamily: 'Armitage', color: 'white', fontSize: 'calc(13px + 0.5vw)', fontWeight:'100'}}>
+        <div className='experience-content' style={{fontFamily: 'Armitage', color: 'white', fontSize: 'calc(14px + 0.5vw)', fontWeight:'100'}}>
         <div className='d-flex justify-content-center pb-4'>
-        <strong style={{fontSize: 'calc(10px + 2.8vw)', letterSpacing: '4px'}}>EXPERIENCE</strong>
+        <strong style={{fontSize: 'calc(20px + 2vw)', letterSpacing: '4px'}}>EXPERIENCE</strong>
             </div>
         <span style={{ paddingBottom: '10px', display: 'block' }}>
             <strong style= {{fontSize: 'calc(11px + 2vw)'}}>
