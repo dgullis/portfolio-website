@@ -42,9 +42,6 @@ function App() {
       <div className="experience-section" id="experience-section">
       <Experience />
       </div>
-      <div className="footer">
-      <Footer />
-      </div>
     </Container>
     </div>
   );
