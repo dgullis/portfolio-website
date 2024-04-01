@@ -14,7 +14,7 @@ export const Experience = () => {
         <span style={{ paddingBottom: '5px', display: 'block' }}>
         Makers Academy software development bootcamp | 10/2023 to 03/2024
         </span>
-        <ul style={{paddingBottom: '20px'}}>
+        <ul style={{paddingBottom: '40px'}}>
             <li>
                 Developed proficiency in Python and Javascript, applying these skills to build full stack web applications
             </li>
@@ -38,12 +38,12 @@ export const Experience = () => {
             </strong>
         </span>
         <span style={{ paddingBottom: '5px', display: 'block' }}>
-        NHS | 2015 to 2023
+            NHS | 2015 to 2023
         </span>
         <span style={{ paddingBottom: '5px', display: 'block' }}>
             In these roles I have developed high level transferable skills including
         </span>
-            <ul>
+            <ul className="primary-list" style={{paddingBottom: '40px'}}>
                 <li>
                     Making critical decisions under pressure.
                 </li>
@@ -60,12 +60,6 @@ export const Experience = () => {
                     junior software engineer.
                 </li>
             </ul>
-
-
-
-
-
-        
         </div>
     )
 }

@@ -1,4 +1,4 @@
-ul {
-    list-style-type: '-  ';
+.primary-list {
+    list-style: disc;
     padding-left: 20px;
 }

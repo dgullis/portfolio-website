@@ -16,4 +16,8 @@ a:hover {
     margin-right: 10px;
 }
 
+.primary-list {
+    list-style-type: disc;
+}
+
 
