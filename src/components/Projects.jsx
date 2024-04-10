@@ -17,20 +17,22 @@ export const Projects = () => {
                 </a>   
             </span>
             <span style={{ paddingBottom: '8px', display: 'block' }}>
-                Flask | React | MongoDB | Firebase | React Bootstrap | AWS (Amplify, EC2)
+                Tech stack: Flask | React | MongoDB | Firebase | React Bootstrap | AWS (Amplify, EC2)
             </span>
             <ul className="primary-list" style={{ paddingBottom: '8px', display: 'block' }}>
                 <li>
-                    Web app that connects students with volounteer tutors.
+                    Description: Web application to match students with volunteer tutors. This started as a two week-small group project to design and build an application that adhered to the self selected category "Tech for good"
                 </li>
                 <li>
-                    Two-week, small group project to design and build a product 
-                    from scratch that adhered to the self selected theme of “Tech for good”.
+                    Skills demonstrated: Dynamic, engaging UI. RESTful API development. Firebase integration for user authentication and image storage. MongoDB integration. Deployment to AWS. Jest and Pytest testing.
                 </li>
                 <li>
-                    Users can securely sign up as volounteer or tutor. (Tutor accounts require admin aprooval before they are live).
-                </li>
-                <li>
+                    User interactions: 
+                    <ul className='sublist'>
+                    <li>
+                        All users can securely sign up as volounteer or tutor and edit their bio and profile image. (Tutor accounts require admin aprooval before they are live).
+                    </li>
+                    <li>
                     Students can:
                     <ul className='sublist'>
                         <li>
@@ -63,10 +65,11 @@ export const Projects = () => {
                             See interactive calendar showing your availability / bookings.
                         </li>
                     </ul>
-                    <li>
-                        All users can update their profile (image and bio).
-                    </li>
-                </li>          
+                </li>  
+                    </ul>
+                </li>
+                
+                    
             </ul>
         
             {/* <span style={{ paddingBottom: '8px', display: 'block' }}>
@@ -86,14 +89,17 @@ export const Projects = () => {
                 </a> 
             </span>
             <span style={{ paddingBottom: '8px', display: 'block' }}>
-                React | Node | Express |  MongoDB | Firebase | AWS (Amplify, EC2) 
+                Tech stack: React | Node | Express |  MongoDB | Firebase | AWS (Amplify, EC2) 
             </span>
             <ul className="primary-list" style={{ paddingBottom: '8px', display: 'block' }}>
                 <li>
-                    Two-week, small group project, to create a facebook clone from a skeleton legacy codebase.
+                    Description: Two-week, small group project, to create a facebook clone from a skeleton legacy codebase.
                 </li>
                 <li>
-                    Users can:
+                    Skills demonstrated: Dynamic, friendly UI. RESTful API development. MongoDB integration. Jest testing. Deployment to AWS with CI/CD.
+                </li>
+                <li>
+                    User interactions:
                     <ul className='sublist'>
                         <li>
                             Securely login and signup.
@@ -137,10 +143,10 @@ export const Projects = () => {
                 </a> 
             </span>
             <span style={{ paddingBottom: '8px', display: 'block' }}>
-                React | Node | Bootstrap | AWS (Amplify)
+                Tech stack: React | Node | Bootstrap | AWS (Amplify)
             </span>
             <span style={{ paddingBottom: '100px', display: 'block' }}>
-                Personal portfoilio website focussing on simplicity, accessibility and responsive design.
+                Description: Personal portfoilio website focussing on simplicity, accessibility and responsive design.
             </span>
         </div>
 

@@ -9,7 +9,7 @@ export const TitleSection = () => {
                 DAN GULLIS
             </Row>
             <Row className="justify-content-center" style={{ fontFamily: 'Armitage', fontSize: 'calc(20px + 2vw)', letterSpacing: '4px', color: 'white', fontWeight: '100', textAlign: 'center', textShadow: '0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3)' }}>
-                JUNIOR SOFTWARE DEVELOPER
+                SOFTWARE ENGINEER
             </Row>
             </Row>
         </Container>

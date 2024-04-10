@@ -47,12 +47,12 @@ export const AboutMe = () => {
             <ul >
                 <li>
                     <span style={{ paddingBottom: '8px', display: 'block' }}>
-                        Junior full-stack software developer and recent graduate of the Makers Academy bootcamp.
+                        Junior full-stack software engineer.
                     </span>
                 </li>
                 <li>
                     <span style={{ paddingBottom: '8px', display: 'block' }}>
-                        Experience with Python, Flask, Javascript, React, Express, Node, SQL and non SQL databases, Pytest, Jest and always eager to learn more and explore new technologies. 
+                        Experience with Python, Flask, Javascript, React, Express, Node, SQL/NoSQL databases, AWS, Pytest, Jest and always eager to learn more and explore new technologies. 
                     </span>
                 </li>
                 <li>
