@@ -27,7 +27,7 @@ export const Carousel = ({ data }) => {
                     alt={item.alt} 
                     key={idx} 
                     className= {slide === idx ? "slide" : "slide slide-hidden"}
-                    style={{ width: '90%', height: 'auto', minWidth: '350px' }}
+                    style={{ width: '90%', height: 'auto' }}
                 /> 
                 )
             })}
