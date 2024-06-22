@@ -34,7 +34,7 @@ export const Projects = () => {
                     User interactions: 
                     <ul className='sublist'>
                     <li>
-                        All users can securely sign up as volounteer or tutor and edit their bio and profile image. (Tutor accounts require admin aprooval before they are live).
+                        All users can securely sign up as volounteer or tutor and edit their bio and profile image. (Tutor accounts require admin aproval before they are live).
                     </li>
                     <li>
                     Students can:
