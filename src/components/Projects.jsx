@@ -1,6 +1,10 @@
 import './Projects.css'
+import {Carousel} from './Carousel'
+import carouselData from '../data/carouselData.json'
+
 
 export const Projects = () => {
+    const {slides} = carouselData
 
     return (
         <div className='projects-content' style={{fontFamily: 'Armitage', color: 'white', fontSize: 'calc(14px + 0.5vw)', fontWeight:'100'}}>
@@ -68,18 +72,21 @@ export const Projects = () => {
                 </li>  
                     </ul>
                 </li>
-                
-                    
             </ul>
-        
-            {/* <span style={{ paddingBottom: '8px', display: 'block' }}>
-                Users can securely sign up as volounteer or tutor. Tutor accounts require admin aprooval before they are live. 
-                Students can search for tutors via subject and grade. Request to book a tutoring session with a tutor. Leave a review for a tutor. See an interactive
-            </span> */}
-            <span style={{ paddingBottom: '40px', display: 'block' }}>
+            <span style={{ paddingBottom: '10px', display: 'block' }}>
                 Try it out by logging in as emma@email.com / Password123!
             </span>
-            <span style={{ paddingBottom: '8px', display: 'block' }}>
+            <span style ={{ paddingBottom: '10px', display: 'block' }}>
+                Screenshots
+            </span>
+            <div className="screenshot-carousel">
+                <Carousel 
+                    data = { slides }
+                />
+            </div>
+           
+
+           <span style={{ paddingBottom: '8px', display: 'block' }}>
                 <strong style={{fontSize: 'calc(11px + 2vw)'}}>Acebook |   </strong>
                 <a href='https://acebook.dangullis.com' className="project-link">
                     live site

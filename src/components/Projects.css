@@ -20,4 +20,13 @@ a:hover {
     list-style-type: disc;
 }
 
+.screenshot-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 80%;
+    padding-bottom: 40px;
+    
+}
 
