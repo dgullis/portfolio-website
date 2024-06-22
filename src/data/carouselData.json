@@ -1,0 +1,29 @@
+{
+    "slides": [
+        {
+            "src": "/carousel-images/tutor-match/home-page.png",
+            "alt": "image 1 tutor match"
+        },
+        {
+            "src": "/carousel-images/tutor-match/login-page.png",
+            "alt": "image 2 tutor match"
+
+        },
+        {
+            "src": "/carousel-images/tutor-match/search-page.png",
+            "alt": "image 3 tutor match"
+
+        },
+        {
+            "src": "/carousel-images/tutor-match/tutor-profile.jpeg",
+            "alt": "image 4 tutor match"
+
+        },
+        {
+            "src": "/carousel-images/tutor-match/student-page.png",
+            "alt": "image 5 tutor match"
+
+        }
+
+    ]
+}

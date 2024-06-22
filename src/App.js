@@ -7,6 +7,7 @@ import { Experience } from './components/Experience';
 import { NavigationBar } from './components/NavigationBar';
 import { TitleSection } from './components/TitleSection';
 
+
 function App() {
 
 
