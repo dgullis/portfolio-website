@@ -57,15 +57,6 @@ export const NavigationBar = () => {
                                 onClick={handleLinkClick}>about me</Link>
                         </li>
                         <li className="nav-item" style={{ marginLeft: expanded ? '' : '20px' }}>
-                            <Link to="projects-section" 
-                                spy={true} 
-                                smooth={true}
-                                offset={-60} 
-                                duration={100} 
-                                className="nav-link-custom"
-                                onClick={handleLinkClick}>projects</Link>
-                        </li>
-                        <li className="nav-item" style={{ marginLeft: expanded ? '' : '20px' }}>
                             <Link to="experience-section" 
                                 spy={true} 
                                 smooth={true}
